@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="EGRankRightFirstViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="520" height="135"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="520" height="134"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First Lau          " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NE7-oT-4re" userLabel="nameLabel">
+                        <rect key="frame" x="114" y="38" width="296" height="24"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ranking_first" translatesAutoresizingMaskIntoConstraints="NO" id="h0m-YV-jMP" userLabel="ranking_first_image">
+                        <rect key="frame" x="425" y="-12" width="90" height="126"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="126" id="8j1-zu-vj6"/>
+                            <constraint firstAttribute="width" constant="90" id="N6N-Dh-DCT"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HK$ 999999999999999" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SoR-Nt-FAq" userLabel="moneyLabel">
+                        <rect key="frame" x="114" y="72" width="209" height="21"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ranking_photo_first" translatesAutoresizingMaskIntoConstraints="NO" id="HH2-t7-okg">
+                        <rect key="frame" x="23" y="29" width="76" height="76"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="76" id="PRb-TA-z13"/>
+                            <constraint firstAttribute="width" constant="76" id="Z0j-EP-AP3"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ranking_photo_others" translatesAutoresizingMaskIntoConstraints="NO" id="odS-MV-U3q">
+                        <rect key="frame" x="29" y="35" width="65" height="65"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="65" id="OEc-yl-gPv"/>
+                            <constraint firstAttribute="width" constant="65" id="yYf-Qh-Id1"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="HH2-t7-okg" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="2Ca-Zi-cgP"/>
+                    <constraint firstItem="NE7-oT-4re" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="centerY" constant="-5" id="3BD-ti-05h"/>
+                    <constraint firstItem="HH2-t7-okg" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="15" id="7Vp-5M-ggr"/>
+                    <constraint firstItem="SoR-Nt-FAq" firstAttribute="leading" secondItem="NE7-oT-4re" secondAttribute="leading" id="P9w-vr-Kv7"/>
+                    <constraint firstItem="h0m-YV-jMP" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" constant="3" id="UWd-f0-JRq"/>
+                    <constraint firstItem="SoR-Nt-FAq" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="centerY" constant="5" id="Xvh-F5-Bb2"/>
+                    <constraint firstItem="NE7-oT-4re" firstAttribute="leading" secondItem="HH2-t7-okg" secondAttribute="trailing" constant="15" id="a7f-66-M2E"/>
+                    <constraint firstItem="h0m-YV-jMP" firstAttribute="leading" secondItem="NE7-oT-4re" secondAttribute="trailing" constant="15" id="ain-Ew-tZW"/>
+                    <constraint firstItem="odS-MV-U3q" firstAttribute="centerY" secondItem="HH2-t7-okg" secondAttribute="centerY" id="bCy-4m-5fZ"/>
+                    <constraint firstItem="h0m-YV-jMP" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-20" id="cP5-Vq-Pe2"/>
+                    <constraint firstItem="odS-MV-U3q" firstAttribute="centerX" secondItem="HH2-t7-okg" secondAttribute="centerX" id="uu1-Bq-ZtY"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="icon" destination="odS-MV-U3q" id="IRI-WU-BXC"/>
+                <outlet property="moneyLabel" destination="SoR-Nt-FAq" id="5pN-8M-KDJ"/>
+                <outlet property="nameLabel" destination="NE7-oT-4re" id="dMW-Ux-7ed"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ranking_first" width="90" height="126"/>
+        <image name="ranking_photo_first" width="76" height="76"/>
+        <image name="ranking_photo_others" width="40" height="40"/>
+    </resources>
+</document>

@@ -1,0 +1,35 @@
+//
+//  Egive-ipad.pch
+//  Egive-ipad
+//
+//  Created by vincentmac on 15/11/3.
+//  Copyright (c) 2015年 Sino. All rights reserved.
+//
+
+#ifndef Egive_ipad_Egive_ipad_pch
+#define Egive_ipad_Egive_ipad_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif
+
+
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "Config.h"
+#import <Masonry/Masonry.h>
+#import <HexColors/HexColor.h>
+#import "UILabel+addtion.h"
+#import <BlocksKit/BlocksKit+UIKit.h>
+#import <SVProgressHUD/SVProgressHUD.h>
+#import "AFNetworking.h"
+#import <MJExtension/MJExtension.h>
+#import <DZNEmptyDataSet/UIScrollView+EmptyDataSet.h>
+#import "UIAlertView+addtion.h"
+#import "Language.h"
+#import <OpenUDID/OpenUDID.h>
+
+#endif

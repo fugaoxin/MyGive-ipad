@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="EGRankRightViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ranking_photo_others" translatesAutoresizingMaskIntoConstraints="NO" id="c7h-Ws-idi" userLabel="icon">
+                        <rect key="frame" x="41" y="2" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="658-Lz-fck"/>
+                            <constraint firstAttribute="height" constant="40" id="fg1-56-8Ba"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="jack Lau                                    " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tQq-T7-FoC" userLabel="nameLabel">
+                        <rect key="frame" x="114" y="-1" width="128" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HK$ 999999999999999" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fSl-X2-2GY" userLabel="moneyLabel">
+                        <rect key="frame" x="114" y="27" width="174" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ranking_others" translatesAutoresizingMaskIntoConstraints="NO" id="bzQ-Wh-EpM" userLabel="rankingImageView">
+                        <rect key="frame" x="257" y="0.0" width="35" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="2JY-pk-zfk"/>
+                            <constraint firstAttribute="width" constant="35" id="9YV-pm-fbg"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="99" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0De-ze-603" userLabel="rankNumLabel">
+                        <rect key="frame" x="259" y="21" width="30" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="9a0-fl-Fdk"/>
+                            <constraint firstAttribute="width" constant="30" id="z91-VR-Bsi"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="bzQ-Wh-EpM" firstAttribute="leading" secondItem="tQq-T7-FoC" secondAttribute="trailing" constant="15" id="JeX-Rv-UQ2"/>
+                    <constraint firstItem="fSl-X2-2GY" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="centerY" constant="5" id="KNw-7o-Fag"/>
+                    <constraint firstItem="c7h-Ws-idi" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="NTX-Ke-YOZ"/>
+                    <constraint firstItem="tQq-T7-FoC" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="centerY" constant="-5" id="NtT-qP-eJZ"/>
+                    <constraint firstItem="c7h-Ws-idi" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="33" id="OSU-wM-Kc8"/>
+                    <constraint firstItem="fSl-X2-2GY" firstAttribute="leading" secondItem="c7h-Ws-idi" secondAttribute="trailing" constant="33" id="acJ-Qb-tzx"/>
+                    <constraint firstItem="tQq-T7-FoC" firstAttribute="leading" secondItem="c7h-Ws-idi" secondAttribute="trailing" constant="33" id="cPq-pb-hpD"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="bzQ-Wh-EpM" secondAttribute="trailing" constant="20" id="eet-7j-BS9"/>
+                    <constraint firstItem="0De-ze-603" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="13" id="lju-KD-6xm"/>
+                    <constraint firstItem="0De-ze-603" firstAttribute="leading" secondItem="bzQ-Wh-EpM" secondAttribute="leading" constant="2" id="z1q-vl-SkL"/>
+                    <constraint firstItem="bzQ-Wh-EpM" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-8" id="zO6-uR-6Wb"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="icon" destination="c7h-Ws-idi" id="IOB-pv-v7z"/>
+                <outlet property="moneyLabel" destination="fSl-X2-2GY" id="F32-pi-CPH"/>
+                <outlet property="nameLabel" destination="tQq-T7-FoC" id="Cmw-dy-bQ0"/>
+                <outlet property="rankNumLabel" destination="0De-ze-603" id="OlP-1v-8mp"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ranking_others" width="35" height="50"/>
+        <image name="ranking_photo_others" width="40" height="40"/>
+    </resources>
+</document>

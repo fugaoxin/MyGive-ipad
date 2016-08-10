@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EGCompanyMemberZoneVC">
+            <connections>
+                <outlet property="finishBtn" destination="mju-R7-xgT" id="pxH-st-kbV"/>
+                <outlet property="logoutBtn" destination="ob4-ob-mkm" id="UiI-ta-78V"/>
+                <outlet property="updateBtn" destination="xym-6R-OCS" id="nMh-B2-ROo"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ob4-ob-mkm" userLabel="logoutBtn">
+                    <rect key="frame" x="532" y="716" width="461" height="45"/>
+                    <color key="backgroundColor" red="0.49792161010000002" green="0.73869554920000002" blue="0.33233021740000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="HGv-c4-Lmx"/>
+                    </constraints>
+                    <state key="normal" title="登出">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="logoutClick:" destination="-1" eventType="touchUpInside" id="R5o-od-648"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xym-6R-OCS" userLabel="updateBtn">
+                    <rect key="frame" x="31" y="716" width="461" height="45"/>
+                    <color key="backgroundColor" red="0.49792161010000002" green="0.73869554920000002" blue="0.33233021740000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="HEw-hH-paa"/>
+                    </constraints>
+                    <state key="normal" title="修改">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="updateClick:" destination="-1" eventType="touchUpInside" id="6ph-8D-2tW"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mju-R7-xgT" userLabel="finishBtn">
+                    <rect key="frame" x="31" y="716" width="962" height="45"/>
+                    <color key="backgroundColor" red="0.49792161010000002" green="0.73869554920000002" blue="0.33233021740000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="完成">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="finishClick:" destination="-1" eventType="touchUpInside" id="Ue0-74-Ugk"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.90327099119999998" green="0.90327099119999998" blue="0.90327099119999998" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="xym-6R-OCS" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.45" id="6n0-PI-Q71"/>
+                <constraint firstItem="mju-R7-xgT" firstAttribute="trailing" secondItem="ob4-ob-mkm" secondAttribute="trailing" id="7pg-nX-vwo"/>
+                <constraint firstAttribute="bottom" secondItem="xym-6R-OCS" secondAttribute="bottom" constant="7" id="DJq-BM-My2"/>
+                <constraint firstItem="mju-R7-xgT" firstAttribute="top" secondItem="ob4-ob-mkm" secondAttribute="top" id="MkO-Rv-Jq8"/>
+                <constraint firstItem="xym-6R-OCS" firstAttribute="trailing" secondItem="i5M-Pr-FkT" secondAttribute="centerX" constant="-20" id="Sdh-bh-c0K"/>
+                <constraint firstItem="mju-R7-xgT" firstAttribute="height" secondItem="ob4-ob-mkm" secondAttribute="height" id="U6K-Lf-vCQ"/>
+                <constraint firstItem="ob4-ob-mkm" firstAttribute="width" secondItem="xym-6R-OCS" secondAttribute="width" id="aF1-N5-Sqk"/>
+                <constraint firstItem="mju-R7-xgT" firstAttribute="leading" secondItem="xym-6R-OCS" secondAttribute="leading" id="b4X-Io-BHh"/>
+                <constraint firstItem="ob4-ob-mkm" firstAttribute="top" secondItem="xym-6R-OCS" secondAttribute="top" id="i3T-bK-dLI"/>
+                <constraint firstItem="ob4-ob-mkm" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="centerX" constant="20" id="iBg-0d-v7V"/>
+            </constraints>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,757 @@
+/* 
+  Localizable.strings
+  Egive
+
+  Created by sinogz on 15/9/4.
+  Copyright (c) 2015 Sino. All rights reserved.
+*/
+"Delete"="Delete";
+"Support_Donation"="Donate Egive";
+"删除记录"="Delete Record";
+"取消成功"="Bookmark Cancelled!";
+"报告日期"="Report Date";
+"报告"="Report";
+"查看更多不同类型的专案"="See more cases";
+"浏览人数" ="No. of Visitors";
+"类似个案" ="Similar Case";
+"Confirm"="Confirm";
+"Dontiton_Confirm"="Confirm";
+"Cancel"="Cancel";
+"mydonation_comfirm_title" = "Confirm Your Donation";
+
+"MenuView_menuLabel_title" = "Menu";
+"MenuView_donationLabel_title" = "Donate";
+"MenuView_topTitle" = "Login / Sign up";
+"MenuView_messageButton_title" = "Inbox";
+"MenuView_homeButton_title" = "Home";
+
+//"MenuView_FollowCase_title" = "     My\nBookmark";
+//"MenuView_MessageCenter_title" = " Message\n  Center";
+"MenuView_FollowCase_title" = "My\nBookmark";
+"MenuView_MessageCenter_title" = "Message\nCenter";
+
+//"MenuView_aboutButton_title" = "About\n   Us";
+"MenuView_aboutButton_title" = "About Us";
+//"MenuView_girdButton_title" = "  Egive\nProjects";
+"MenuView_girdButton_title" = "Egive\nProjects";
+"MenuView_rankingButton_title" = "Awards";
+"MenuView_InformationButton_title" = "News &\nEvents";
+//"MenuView_InformationButton_title" = " News &\n Events";
+"MenuView_myDonationButton_title" = "Donation Cart";
+"MenuView_shareButton_title" = "Share";
+"MenuView_settingButton_title" = "Settings";
+
+
+"HomePage_cumulativeAmount_label" = "Total Donation";
+"HomePage_cumulative_label" = "No. of Donations";
+"HomePage_atm_label" = "Atm";
+"HomePage_target_label" = "Target Atm";
+
+"Login_userName_textFile" = "Login Name";
+"Login_passWord_textFile" = "Password";
+"Login_loginButton_title" = "Login";//"Member Login";
+"Login_registerButton_title" = "Sign Up";//"Member Sign Up";
+"Login_faceBookButton_title" = "Facebook Login";
+"Login_wbButton_title" = "Weibo Login";
+"Login_conditons_title" = "Terms and Conditons";
+"Login_private_policy" = "Private Policy";
+"Login_Copyright_Notiees" = "Copyright Notieeg";
+"Login_note_title" = "Please input your Login ID or Password.";
+//登记表格
+"Register_personalButton_title" = "Individual";
+"Register_organizationButton_title" = "Institution";
+"Register_userNameTextfile" = "Login Name";
+"Register_userNameTextfile_pla" = "Login Name";//(English only)";
+"Register_mpwsTextfile" = "Password";
+"Register_comfirmpwsTextfile" = "Confirm Password";
+"Register_noteLabel_title" = "(At least 6 characters)";
+"Register_sexMrButton_title" = "Mr.";
+"Register_sexMrsButton_title" = "Mrs.";
+"Register_sexMrssButton_title" = "Miss.";
+"Register_lastNameCh" = "LastName(Ch)";
+"Register_nameCh" = "FirstName(Ch)";
+"Register_lastNameEn" = "LastName(En)";
+"Register_nameEh" = "FirstName(En)";
+"Register_email" = "Email Address";
+"Register_belongto" = "Belong To";
+"Register_noteLabel1_title" = "(Sign-up confirmation email and official donation receipt will be e-mailed to you.)";
+"Register_isEmailButton_title" = "Yes";
+"Register_noEmailButton_title" = "No";
+"Register_IsEmailNote" = "Do you wish to receive news and update from Egive?";
+"Register_noteLabel3_title" = "Will you consider becoming Egive Volunteers and join our volunteer activities in future?";
+"Register_yButton_title" = "Yes";
+"Register_nButton_title" = "Not Now";
+"Register_commitButton_title" = "Submit";
+"Register_org_Button1_title" = "Enterprise";
+"Register_org_Button2_title" = "Society";
+"Register_org_Button3_title" = "NGO";//"Non-Profit Organization";
+"Register_org_Button4_title" = "Other";
+"Register_org_orgNameCh_textFile" = "Name of Institution(Ch)";
+"Register_org_orgNameEn_textFile" = "Name of Institution(En)";
+"Register_org_position_textFile" = "Position";
+"Register_org_number" = "PhoneNumber";
+"Register_org_noteLabel" = "Contact Person";
+"Register_org_address" = "Institution Address";
+"Register_org_region1" = "Room/Floor";
+"Register_org_region2" = "Building";
+"Register_org_region3" = "Estate";
+"Register_org_region4" = "Building Number & Street Name";
+"Register_org_selRegion" = "District";
+"Register_org_regionButton" = "HK";
+"Register_org_otherButton" = "Other";
+"Register_org_noteLabel1_title" = "(Sign-up confirmation email and official donation receipt will be e-mailed to you.)";
+"Register_org_noteLabel2_title" = "(Please provide valid address for future correspondence.)";
+
+"Register_org_noteLabel3_title" = "Will you consider becoming Egive Volunteers and join our volunteer activities in future?";//"Do you want to be Egive Volunteer?";
+
+//"个人累积捐款" = "Indiv. Donation";
+//"企业累积捐款" = "Corp. Donation";
+"个人累积捐款" = "Total Indiv. Donation Amount";
+"企业累积捐款" = "Total Donation Amount";
+"查看排名" = "Check Ranking";
+"捐款记录" = "The record";
+"联络人姓名(中)" = "Contact Person(Ch)";
+"联络人姓名(英)" = "Contact Person(En)";
+"修改" = "Update";
+"登出" = "Logout";
+"从照片库选取" = "Choose Existing";
+"拍摄新照片" = "Take Photo";
+"登入名称" ="Login Name";
+"登入密码" ="Password";
+"性别"="Gender";
+"通讯地址"="Address";
+"年龄组别"="Age Group";
+"密码不一致"="Wrong [Confirm Password]";
+"此项不需要填写"="This does not need to fill in";
+"姓名(中)"="Name(Ch)";
+"姓名(英)"="Name(En)";
+"男"="M";
+"女"="F";
+"请选择所属机构"="Please Select[Belong To]";
+"请选择 [你是否希望定期收到「意赠」的电邮资讯？]"="Please select [Do you wish to receive news and update from Egive?]";
+
+"修改密码"="Modify";
+"旧密码"="Old Password";
+"新密码"="New Password";
+"新密码至少需要6个字元"="(At least 6 characters)";
+"密码修改成功" = "密码修改成功";
+"旧密码错误"="Wrong old password";
+
+
+//关于意赠
+"AboutGird_label_title1" = "Mission";
+"AboutGird_label_title2" = "Chairman's statement";
+"AboutGird_label_title3" = "Core Members";
+"AboutGird_label_title4" = "Egivers";
+"AboutGird_label_title5" = "Donation Method";
+"AboutGird_label_title6" = "How to support";
+"隐藏" ="hidden";
+" 至 " = " to ";
+//点击行善
+"GirdView_button_title0" = "Angel Action";
+"GirdView_button_title1" = "What's New";
+"GirdView_button_title2" = "Last Call";
+"GirdView_button_title3" = "Spotlights";
+"GirdView_button_title4" = "Completed";
+"GirdView_selectButton_title" = "All";
+"GirdView_search_title" = "Search";
+"GirdView_cumulativeAmount_label" = "Cumulative Donated Amount";
+"GirdView_cumulative_label" = "Cumulative Donated Person";
+"GirdView_atm_label" = "Raised";
+"GirdView_target_label" = "Target";
+"GirdView_attention1_label" = "Bookmark";
+"GirdView_attention2_label" = "Bookmark";
+"GirdView_time_label" = "Remain:";
+"GirdView_time" = "Ended";
+"GirdView_count_label" = "Donors:";
+"GirdView_report_label" = "Progress";
+"GirdView_donors_label" = "Donors";
+"GirdView_blessings_label" = "Blessings";
+"GirdView_blessings_button" = "Blessings";
+"GirdView_donate_button" = "Donate";
+"筹募" = "Completed";
+
+"DonationInfo_viewTitle" = "EGive Info";
+"DonationInfo_foreshowButton" = "Events";
+"DonationInfo_foreshowButton2" = "Events";
+"DonationInfo_foreshow_date" = "Date: ";
+"DonationInfo_foreshow_address" = "Address :";
+"DonationInfo_scoopButton" = "Highlights";
+"DonationInfo_releaseButton" = "Publications";
+
+//MyDonation
+"MyDonation_Title" = "MyDonation";
+"MyDonation_selectedButton" = "Selected Project";
+"MyDonation_recordButton" = "Donation Record";
+"MyDonation_designationButton" = "Designation of Donation";
+"MyDonation_HK" = "Hong Kong";
+"MyDonation_HKpoundage" = "Transaction fees included(3.9%+HKD$2.35)";
+"MyDonation_HKpoundage2" = "Transaction fees included(3.9%%+HKD$2.35)";
+"MyDonation_noHK" = "Outside HK";
+"MyDonation_noHKpoundage" = "Transaction fees included(4.4%+HKD$2.35)";
+"MyDonation_TapButton" = "Egive Projects";
+"MyDonation_Thetotalamountof" = "Total";
+"MyDonation_AddButton" = "Add";
+"MyDonation_ContinueButton" = "Continue";
+"MyDonation_ContinueButton2" = "Continue in Safari browser";
+"捐款金额不能超过1,000,000" = "You shall not donate more than $1,000,000 via mobile apps.";
+
+"包括手续费" = "Incl.Handling Fee(3.9%+HK$2.35)";
+
+"包括手续费" = "Transaction fees included(3.9%%+HKD$2.35)";
+
+
+
+// Setting
+"Setting_Title" = "Setting";
+"Setting_label_language" = "Language";
+"Setting_label_title1" = "  Contact Us";
+"Setting_label_title2" = "  Message Notification";
+"Setting_label_title3" = "  FAQ";
+"Setting_label_title4" = "  Terms & Conditions";
+"Setting_label_version" = "Ver";
+
+
+// Login
+"Login_label_title1" = " Terms of Use";
+"Login_label_title2" = "Privacy Policy";
+"Login_label_title3" = "Copyright";
+
+
+
+// Common
+"Common_button_close" = "Confirm";
+"Common_button_confirm" = "Confirm";
+
+// msg
+"alert_msg_caseHasAdded" = "Case has already added to Donation Cart, please select other cases.";
+"alert_msg_saveShoppingCartItemSuccess" = "Add Successfuly!";
+"alert_msg_caseFinished" = "Case closed, please supports other cases.";
+"alert_msg_caseSuccess" = "Case received target donation amount, thank you for supports!";
+
+// Other
+"Content" = "Content:";
+"Date" = "Date:";
+"日" = " Days";
+"活动日期" = "Event Date:";
+"捐款项目" = "Donation Project";
+"捐款日期" = "Date of Donation";
+"受助者收到金额" = "Actual Contribution (After Administrative Costs Deducted)";
+"请选取你喜欢的专案类别(可选择多项):" = "Please select the theme(s) you would like update from us:";
+"其他" ="Other";
+"全选"="Select all";
+
+// Navigation Title
+"成立理念" = "Mission";
+"关於意赠" = "About Us";
+"善心排名" = "Donation Ranking";
+"送祝福" = "Blessings";
+"删除成功!" = "Deleted";
+"联络我们" = "Contact Us";
+"常见问题" = "Frequently Asked Questions";
+"条款及细则" = "Terms and Conditions";
+"捐款者" = "Donor";
+"呼吁募捐" = "Donation Appeal";
+"会员专区" = "Member Zone";
+"找回密码" = "Forgot Password";
+"点击行善" = "Egive Projects";
+"讯息中心" = "Message Center";
+"讯息提示" = "Notification";
+"我的关注" = "My Bookmark";
+//"进度报告" = "Progress Notification";
+"善心排名" = "Ranking";
+"捐款纪录" = "Donation History";
+"捐款来源" = "Source of Donation";
+"捐款形式" = "Donation Method";
+"意赠之友登记表格" = "Sign Up as Egive Member";
+"发布中心" = "Publications";
+
+// General//General
+"意赠慈善基金" = "Egive For You Charity Foundation";
+"电话" = "Phone No.";
+"传真:" = "Fax No.";
+"电邮" = "Email Address";
+"办公时间" = "Office Hour";
+"星期一至五" = "Monday-Friday";
+"上午9时至下午1时/下午2时至6时" = "9:00AM -1:00PM or 2:00PM - 6:00PM";
+"星期六丶日及公共假期休息" = "Close on Saturday, Sunday and Public Holiday";
+"用户取消编辑邮件" = "Cancel Edit Email";
+"用户成功保存邮件" = "Email Saved";
+"Egive" = "Egive";
+
+// MessagePromptViewController//MessagePromptViewController
+"所有提示" = "Inbox";
+"进度报告提示" = "Progress Report";
+"意赠活动提示" = "News & Events";
+"新增个案提示" = "What's New";
+"成功筹募提示" = "Completed";
+
+// RegisterViewController//RegisterViewController
+
+"输入错误" = "Input Error";
+"没有Https连结" = "HTTPS connection is required.";
+"此账号已被注册"="Login name has already been registered";
+
+
+"请输入[姓名(中)(姓)]" = "Please Input [Last Name(Ch)]";
+"请输入[姓名(中)(名)]" = "Please Input [First Name(Ch)]";
+"请输入[姓名(英)(姓)]" = "Please Input [Last Name(En)]";
+"请输入[姓名(英)(名)]" = "Please Input [First Name(En)]";
+"姓名(中)(姓) 内请输入中文" = "Please enter Chinese at Last Name(Ch)";
+"姓名(中)(名) 内请输入中文" = "Please enter Chinese at First Name(Ch)";
+"姓名(英)(姓) 内请输入英文" = "Please enter English at Last Name (En)";
+"姓名(英)(名) 内请输入英文" = "Please enter English at First Name (En)";
+"请选择[所属机构]" = "Please Select[Belong To]";
+"[请选取您喜欢的专案类别(可选择多项)]" = "Please Select[What kind of projects or cases you would like to receive update]";
+"请输入[电邮地址]" = "Please Input [Email]";
+"[电邮地址]错误" = "Invalid Email address";
+"电邮已被注册" = "Email address already registered";
+"请输入[联络电话]" = "Please Input [Phone Number]";
+"[联络电话]只能輸入數字" = "[PhoneNumber] can only enter Num";
+
+"请输入[其他，请注明]" = "Please Input [Other]";
+"义工服务开始日期-日期格式无效" = "Invalid date format for [Volunteer start date]";
+"义工服务结束日期-日期格式无效" = "Invalid date format for [Volunteet end date]";
+"开始日期必须早于结束日期（义工服务开始日期）" = "Start date must be earlier than volunteer end date(Volunteer start date)";
+"请输入[联络人姓名(中)(姓)]" = "Please Input [Contact Person Last Name(Ch)]";
+"请输入[联络人姓名(中)(名)]" = "Please Input [Contact Person First Name(Ch)]";
+"请输入[联络人姓名(英)(姓)]" = "Please Input [Contact Person Last Name(En)]";
+"请输入[联络人姓名(英)(名)]" = "Please Input [Contact Person First Name(En)]";
+"联络人姓名(中)(姓) 内请输入中文" = "Please enter Chinese at [Contact Person Last Name(Ch)]";
+"联络人姓名(中)(名) 内请输入中文" = "Please enter Chinese at [Contact Person First Name(Ch)]";
+"联络人姓名(英)(姓) 内请输入英文" = "Please enter English at [Contact Person Last Name(En)]";
+"联络人姓名(英)(名) 内请输入英文" = "Please enter English at [Contact Person First Name(En)]";
+
+"[商业登记号码/香港社团注册证明书编号/税局档号] 错误" = "Invaild [Business Registration No/Society Registration No/IRD File No]";
+"请输入[商业登记号码/香港社团注册证明书编号/税局档号]" = "Please Input [Business Registration No/Society Registration No/IRD File No]";
+"请输入[机构名称(中)]" = "Please Input [Name of Institution(CH)]";
+"机构名称(英)不接受中文输入" = "Name of Institution(Eng) does not accept Chinese input";
+"请输入[职位]" = "Please Input [Position]";
+"请输入[机构地址]" = "Please Input [Institution Address]";
+
+
+"願望一覽" = "Wishes";
+"祝福之最" = "Blessings";
+"助学" = "Education";
+"安老" = "Elderly";
+"助医" = "Medical";
+"扶贫" = "Community";
+"紧急援助" = "Relief";
+"其他" = "Other";
+"意赠行动" = "Egive Action";
+"全部" = "All";
+"请输入登入名称" = "Please enter login ID.";
+"密码不能为空" = "Please Input [Password]";
+"邮箱不能为空" = "Please enter email address.";
+"企业" = "Enterprise";
+"社团组织" = "Society";
+"非牟利组织" = "Non-Profit Organization";
+"税局档号" = "Inland Revenue File no.";
+"请说明" = "Please state";
+"Please_specify"="Please specify";
+"商业登记编号" = "B/R No.";
+"联络人姓名" = "Contact Person";
+"先生/Mr." = "Mr. ";
+"女士/Mrs." = "Mrs.";
+"小姐/Miss." = "Miss.";
+"请输入登入名称" = "Please enter login ID.";
+"密码不能为空" = "Please Input [Password]";
+"密码不能输入中文" = "Password does not accept Chinese input";
+"最少需要6個字元" = "Password at least 6 characters";
+"请输入确认密码"="Please Input [Confirm Password]";
+
+"机构名称不能为空" = "Please enter organization name.";
+"姓名不能为空" = "Please enter name.";
+"职位不能为空" = "Please enter Position.";
+"邮箱不能为空" = "Please enter email address.";
+"联络电话不能为空" = "Please enter contact no.";
+"商业登记号码" = "Business Registration No.";
+"香港社团注册证明书编号" = "Society Registrarion No.";
+"税局档号" = "IRD File No.";
+"不适用" = "N/A";
+"请输入税局档号" = "Please enter File No. of IRD.";
+"义工服务意向" = "Will you consider to be Egive volunteer and join our activities in the future?";
+"我愿意成为意赠慈善基金的:" = "I agree to join Egive Charity Foundation";
+"短期义工" = "Short-term Volunteer";
+"有关协助之项目:(可选择多项)" = "My specialty (You can select more than one)";
+"办事处行政服务:(资料输入,信件处理,一般行政工作等)" = "Office Administration (Such as Date Input and Correspondence, General Office Admin. Works)";
+"印刷品设计" = "Printing Design";
+"活动联络" = "Event Coordination";
+"编辑" = "Edition";
+"翻译(中英/英中)" = "Translation";
+"文稿撰写" = "Copywriting";
+"摄影" = "Photography";
+"协办筹款活动(不定期举办)" = "Fundraising (Irregular)";
+"探访" = "Visit";
+"可服务的时间(可选择多项)" = "Available Date and Time (You can select more than one)";
+"星期一" = "Monday";
+"星期二" = "Tuesday";
+"星期三" = "Wednesday";
+"星期四" = "Thursday";
+"星期五" = "Friday";
+"星期六" = "Saturday";
+"星期日" = "Sunday";
+"任何时间" = "Any Time";
+"上午10时至下午1时" = "10:00AM – 1:00PM";
+"下午2时至下午5时" = "2:00PM – 5:00PM";
+"上午10时至下午5时" = "10:00am – 5:00pm";
+"晚上7时至9时" = "7pm to 9pm";
+"长期义工" = "Long Term Volunteer";
+"请选择是否定期收到电邮咨询!" = "Select to receive our E-mail";
+"请输入机构名称(中)" = "Please input organization name (Chinese)";
+"请输入机构名称(英)" = "Please input organization name (English)";
+"请输入电话" = "Please input telephone number";
+
+
+// Navigation Title
+"成立理念" = "Mission";
+"關於意贈" = "About Us";
+"善心排名" = "Donation Ranking";
+"送祝福" = "Blessings";
+"刪除成功!" = "Deleted";
+"聯絡我們" = "Contact Us";
+"常見問題" = "Frequently Asked Questions";
+"條款及細則" = "Terms and Conditions";
+"捐款者" = "Donor";
+"呼吁募捐" = "Donation Appeal";
+"會員專區" = "Member Zone";
+"找回密碼" = "Forgot Password";
+"點擊行善" = "Egive Projects";
+"訊息中心" = "Message Center";
+"訊息提示" = "Notification";
+"我的關注" = "My Bookmark";
+"進度報告" = "Progress Report";
+"善心排名" = "Ranking";
+"捐款紀錄" = "Donation Record";
+"捐款來源" = "Source of Donation";
+"捐款形式" = "Donation Method";
+"意贈之友登記表格" = "Membership Registration Form";
+"發布中心" = "Publications";
+
+// General
+"意贈慈善基金" = "Egive For You Charity Foundation";
+"電話" = "Phone No.";
+"傳真:" = "Fax No.";
+"電郵" = "Email Address";
+"辦公時間" = "Office Hour";
+"星期一至五" = "Monday-Friday";
+"上午9時至下午1時/下午2時至6時" = "9:00AM -1:00PM or 2:00PM - 6:00PM";
+"星期六、日及公共假期休息" = "Close on Saturday. Sunday and Public Holiday";
+"用戶取消編輯郵件" = "Edit Email Cancelled";
+"用戶成功保存郵件" = "Email Saved";
+
+// MessagePromptViewController//MessagePromptViewController=
+"所有提示" = "All Notification";
+"進度報告提示" = "Progress Notification";
+"意贈活動提示" = "Event Notification";
+"新增個案提示" = "New Project Notification";
+"成功籌募提示" = "Completed Project Notification";
+
+// RegisterViewController
+"password_not_require" = "Not required";
+"助學" = "School Project";
+"安老" = "Elderly";
+"助醫" = "Medical Care Project";
+"扶貧" = "Poverty Project";
+"緊急援助" = "Emergency Support";
+"其他" = "Other";
+"意赠行动" = "Egive Action";
+"全部" = "All";
+"請輸入登入名稱" = "Please enter login ID.";
+"密碼不能為空" = "Please enter password.";
+"郵箱不能為空" = "Please enter email address.";
+"企業" = "Enterprise";
+"社團組織" = "Society";
+"非牟利組織" = "NGO";
+"稅局檔號" = "Inland Revenue File no.";
+"請說明" = "Please state";
+"商業登記編號" = "Business Registration No.";
+"聯絡人姓名" = "Contact Person";
+"先生/Mr." = "Mr. ";
+"女士/Mrs." = "Mrs.";
+"小姐/Miss." = "Miss.";
+"請輸入登入名稱" = "Please enter login ID.";
+"密碼不能為空" = "Please enter password.";
+"機構名稱不能為空" = "Please enter organization name.";
+"姓名不能為空" = "Please enter name.";
+"職位不能為空" = "Please enter Position.";
+"郵箱不能為空" = "Please enter email address.";
+"聯絡電話不能為空" = "Please enter contact no.";
+"商業登記號碼" = "Business Registration No.";
+"香港社團注冊證明書編號" = "Registration No. of A Society";
+"稅局檔號" = "IRD File No.";
+"請輸入稅局檔號" = "Please enter IRD File No.";
+"義工服務意向" = "Will you consider to be Egive volunteer and join our activities in the future?";
+"我願意成為意贈慈善基金的:" = "I agree to join Egive Charity Foundation";
+"短期義工" = "Short-term Volunteer";
+"有關協助之項目:(可選擇多項)" = "My specialty (You can select more than one option)";
+"辦事處行政服務:(資料輸入,信件處理,一般行政工作等)" = "Office Administration (Date Input, Correspondence, General Office Admin.)";
+"印刷品設計" = "Printing Design";
+"活動聯絡" = "Event Coordination";
+"編輯" = "Edition";
+"翻譯(中英/英中)" = "Translation";
+"文稿撰寫" = "Copywriting";
+"攝影" = "Photography";
+"協辦籌款活動(不定期舉辦)" = "Fundraising (Irregular)";
+"探訪" = "Visit";
+"可服務的時間(可選擇多項)" = "Available Date and Time (You can select more than one)";
+"星期一" = "Monday";
+"星期二" = "Tuesday";
+"星期三" = "Wednesday";
+"星期四" = "Thursday";
+"星期五" = "Friday";
+"星期六" = "Saturday";
+"星期日" = "Sunday";
+"任何時間" = "Any Time";
+"上午10時至下午1時" = "10:00AM – 1:00PM";
+"下午2時至下午5時" = "2:00PM – 5:00PM";
+"上午10時至下午5時" = "10:00AM – 5:00PM";
+"晚上7時至9時" = "7:00PM – 9:00PM";
+"長期義工" = "Long Term Volunteer";
+"請選擇是否定期收到電郵咨詢!" = "Select to receive our E-mail";
+"請輸入機構名稱(中)" = "Please input organization name (Chinese)";
+"請輸入機構名稱(英)" = "Please input organization name (English)";
+"請輸入電話" = "Please input telephone number";
+"Central and Western" = "Central and Western";
+"Eastern" = "Eastern";
+"Southern" = "Southern";
+"Wan Chai" = "Wan Chai";
+"Sham Shui Po" = "Sham Shui Po";
+"Kowloon City" = "Kowloon City";
+"Kwun Tong" = "Kwun Tong";
+"Wong Tai Sin" = "Wong Tai Sin";
+"Yau Tsim Mong" = "Yau Tsim Mong";
+"Islands" = "Islands";
+"Kwai Tsing" = "Kwai Tsing";
+"North" = "North";
+"Sai Kung" = "Sai Kung";
+"Sha Tin" = "Sha Tin";
+"Tai Po" = "Tai Po";
+"Tsuen Wan" = "Tsuen Wan";
+"Tuen Mun" = "Tuen Mun";
+"Yuen Long" = "Yuen Long";
+
+// UIAlertView
+"请选择并同意上述声明" = "Please agree to the above Terms and Conditions.";
+"請登入後再進行分享!" = "Please login to share!";
+"取消" = "Cancel";
+"截至:" = "End at:";
+"请登录后再操作!" = "Please login to proceed!";
+"确定要删除该祝福吗?" = "Cancel the Blessings?";
+"請選擇[本人確認以上捐款資料準確無誤。]" = "Please select[I confirm the above donation details are correct.]";
+"請選擇[本人已閱讀及清楚明白以上捐款聲明，並同意有關善款安排及不獲發捐款收據。]" = "Please select [I have read and understood the above donation remarks and agree with the arrangement.]";
+"無效的[電郵地址]!" = "Invalid[email address]!";
+"無名氏" = "Anonymous";
+"提示" = "Notice";
+"修改成功!" = "Edited Successfully!";
+"密码重设成功,已发送至您的邮箱,请注意查收!" = "Password is reset and an confirmation email is sent to you!";
+"專案已經加入購物車,請選擇其他專案" = "The case is added to your shopping cart. Please select another case.";
+"專案已結束,請支持其他專案" = "The case is closed. Please support other cases.";
+"收藏成功" = "Bookmarked";
+"取消成功!" = "Bookmark Cancelled!";
+"完成" = "Submit";
+"請選取專案類別" = "Please select case category";
+"是否通过Email找回密码？" = "Would you like to get back your password via email?";
+"注册成功!请点击确定按钮返回登入页面!" = "Registration is successful. Please tap Confirm button and login!";
+"请输入祝福内容!" = "Please enter the Blessings content";
+"未连接网络，请检查您的网络" = "Please check your internet connection and try again later";
+"无效的电子邮箱" = "Email address is invalid";
+"无效的用户名称" = "Invail Member ID";
+"密码错误" = "Wrong Password";
+"未注册的用户" = "Member not registered";
+"性别错误" = "Gender error";
+"请输入注册会员时所填的邮箱" = "(Please enter your email address used for registration)";
+
+
+// EGAlertViewController
+"捐款收据" = "Donation Receipt";
+"如需收据请先注册成为会员" = "Please register as a member if donation receipt is required.";
+"登入/注册" = "Login/Register";
+"呼籲募捐" = "Donation Appeal";
+"感激你的慷慨捐输，请呼吁身边的朋友共襄善举，发扬大爱精神！" = "Thank you for your generous donation. Please appeal your friends to donate and promote the spirit of care and giving.";
+
+// AOIView
+
+"email_heading" = "General Enquiry";
+"每個捐款專案最低捐款金額為港幣20元" = "Shall be at least HK$%ld.";
+"min_donation" = "Shall be at least HK$%ld.";
+
+"专案摘要" = "Project Summary";
+"专案内容" = "Project Details";
+"受惠者背景" = "Background";
+"援助需要" = "The Needs";
+"心声分享" = "Messages from the Beneficiary";
+"增加呼吁对象" = "Add Donors";
+
+"预览" = "Preview";
+"成功传送" = "Successfully Sent";
+"关闭" = "Close";
+"感谢您的祝福" = "Thank you for your blessing";
+
+
+"截至" = "As of";
+"个人捐款排名" = "My Ranking";
+"个人累积捐款" = "Total Donation Amount";
+//"个人累积捐款" = "Indiv. Donation Amount";
+//"企业捐款排名"="Corp.ranking";
+"企业捐款排名"="My Ranking";
+"累积最高捐款企业" = "Top Corporate Fundraiser";
+"最热心参与企业" = "Top Corporate Support";
+"每月最高个人捐款" = "Monthly Top Individual Fundraiser";
+"累积最高个人捐款" = "Top Individual Fundraiser";
+"综合－累积最高捐款企业" = "General - Top Corporate Fundraiser";
+"助学－累积最高捐款企业" = "Education - Top Corporate Fundraiser";
+"安老－累积最高捐款企业" = "Elderly - Top Corporate Fundraiser";
+"助医－累积最高捐款企业" = "Medical - Top Corporate Fundraiser";
+"扶贫－累积最高捐款企业" = "Community - Top Corporate Fundraiser";
+"紧急援助－累积最高捐款企业" = "Relief - Top Corporate Fundraiser";
+"意赠行动－累积最高捐款企业" = "Egive Action - Top Corporate Fundraiser";
+"其他－累积最高捐款企业" = "Other - Top Corporate Fundraiser";
+
+"综合－每月最高个人捐款" = "General - Monthly Top Individual Fundraiser";
+"助学－每月最高个人捐款" = "Education - Monthly Top Individual Fundraiser";
+"安老－每月最高个人捐款" = "Elderly - Monthly Top Individual Fundraiser";
+"助医－每月最高个人捐款" = "Medical - Monthly Top Individual Fundraiser";
+"扶贫－每月最高个人捐款" = "Community - Monthly Top Individual Fundraiser";
+"紧急援助－每月最高个人捐款" = "Relief - Monthly Top Individual Fundraiser";
+"意赠行动－每月最高个人捐款" = "Egive Action - Monthly Top Individual Fundraiser";
+"其他－每月最高个人捐款" = "Other - Monthly Top Individual Fundraiser";
+
+"综合－累积最高个人捐款" = "General - Top Individual Fundraiser";
+"助学－累积最高个人捐款" = "Education - Top Individual Fundraiser";
+"安老－累积最高个人捐款" = "Elderly - Top Individual Fundraiser";
+"助医－累积最高个人捐款" = "Medical - Top Individual Fundraiser";
+"扶贫－累积最高个人捐款" = "Community - Top Individual Fundraiser";
+"紧急援助－累积最高个人捐款" = "Relief - Top Individual Fundraiser";
+"意赠行动－累积最高个人捐款" = "Egive Action - Top Individual Fundraiser";
+"其他－累积最高个人捐款" = "Other - Top Individual Fundraiser";
+
+
+"不包括手续费" = "Exclude PayPal transaction fee";
+
+"捐款金额" ="Amount";
+"受助者收到金额"="Net Donation to Beneficiary";
+"专案标题"="Project Title";
+"捐助金额"="Donation Amount";
+"捐款总额"="Net Donation Amount";
+"需要捐款收据"="Receipt Required";
+"不需要捐款收据"="No Receipt Required";
+"网上鸣谢"="Acknowledge Online";
+"无需鸣谢"="No Acknowledgement";
+"网上鸣谢名称"="Name on Online Acknowlegement";
+"将用作计算累计捐款之用"="Will be used to calculate accumulated donation amount.";
+"将用作日后联络之用"="For future correspondence only.";
+"本人确认以上捐款资料准确无误"="I confirm the above donation details are correct.";
+//"本人已阅读及清楚明白以上捐款声明,并同意有关善款安排"="I have read and fully understand the T&C; and agree to the arrangement of the donations.";
+//"本人已阅读及清楚明白以上捐款声明,并同意有关善款安排"="<p>I have read and agreed to the <a href=\"www.baidu.com\">T&C</a> and the Use of Donation.</p>";
+"本人已阅读及清楚明白以上捐款声明,并同意有关善款安排"="I have read and understood the above donation remarks and agree with the arrangement.";
+"如需捐款收据及储存捐款记录,请先注册为意赠之友,或现为意赠之友,请按此登入" ="Tax deductible donation receipts will be issued upon request, for donation of HK$100 or above. For detailed donation record, please register to be Egive Member to Login.";
+"必须与身份证明文件相同"="Name on receipt should match donor's identity card";
+"receipt_should_match"="(Name on receipt should match donor's identity card)";
+"专案目标已经达到,请支持其他意赠项目"="This case is completed and please support other cases.";
+"arrangement"="arrangement";
+"donation_remarks"="donation remarks";
+
+"全部信息" = "All Messages";
+"意赠活动" = "Egive Event";
+"新增个案" = "New Egive Case";
+"进度报告" = "Progress Report";
+"成功筹募" = "Completed Egive Case";
+"捐款记录" = "Donation Record";
+
+
+"最新专案" = "What’s New";
+
+"你從何處認識「意贈慈善基金」(可選擇多項)" = "How do you know about Egive: (You can choose more than one options)";
+"「意贈」網頁" = "Egive Website";
+"「意贈」活動/刊物" = "Egive Events/Magazine";
+"朋友"="Friend";
+"報章"="Newspaper";
+"社交媒體(Facebook、新浪微博等)"="Social Media (such as Facebook/Weibo)";
+"為「意贈」的捐款者"="As a Egive Donor";
+"Weibo" = "Weibo";
+
+
+//
+"IsCase"="Similar Case";
+"Please_Select"="Please Select";
+"Callingfordonations"="Donation Appeal";
+"Selectcallobject"="Add Donors";
+"Futuregenerations"="Select All";
+"valid_email_address"="Input valid email address";
+"TitleLabel"="Terms of Use";
+"ContentTitLe"="Description: ";
+"More"="more";
+
+"NoContent"="Not Available";
+"TelePhoneNumber"="Please input telephone number.";
+"NameRegerst"="Please at least input Chinese Name or English Name.";
+"FirstNameRegerst"="Please input Chinese [First Name].";
+"EngFirstNameRegerst"="Please input English [First Name].";
+"chneseName"="Please input Chinese [Surname][First Name].";
+"englishName"="Please input English [Surname][First Name].";
+"joinPeople"="No. of Participants";
+"捐款收据名称"="Name on Receipt";
+
+"ButtonTitleHK"="HK";
+"ButtonTitleNoHK"="Outside HK";
+"Educationlevel"="Education Level";
+"Occupation"="Occupation";
+"dataStart"="From(YYYY/MM/DD)";
+"dataEnd"="To(YYYY/MM/DD)";
+"職位"="Position";
+"BusinessRegistrationType"="Please Select";
+"參與人數"="No. of Participants";
+"截至昨天"="As of yesterday";
+"请提供正确电邮地址以确认意赠之友登记资料及接收电子捐款收据"="Sign-up confirmation email and official donation receipt will be e-mailed to you";
+"小学或以下"="Primary or Below";
+"中学"="Secondary";
+"大专或以上"="Tertiary or above";
+"捐款声明"="Designation of Donation";
+"登入"="Login";
+"ConfirmView_receiptNoteLabel" = "(Name on receipt should match donor's identity card)";
+"No_Records"="No Records";
+"系统错误"="System error";
+"请选择你喜欢的专案类别(可选多项)"="What kind of projects or cases you would like to receive update:";
+"非牟利机构需填写税局档号；社团组织需填写香港社团注册证明书编号"="(Non-profit organization please provide IRD File No; Society please provide Society Registration No.) ";
+"联络人"="Contact Person";
+"捐款资料有误，请检查项目内容再试。"="The donation cannot be processed.Please check the donation details again.";
+"目标金额"="*Remaining Amount";
+"希望定期收到"="wish to receive";
+
+"义工服务意向"="Preference for the my volunteer service";
+"我愿意成为意赠慈善基金的"="I would like to be :";
+"长期义工"="long-term volunteer";
+"短期义工"="short-term volunteer";
+"由"="From";
+"至"="to";
+"有关协助之项目:(可选择多项)"="I can help in following aspects:";
+"有关协助之项目"="I can help in following aspects:";
+"办事处行政支援服务:(资料输入、信件处理、一般行政工作等)"="Administrative works (data entry, general administration etc)";
+"印刷品设计"="Printing and design";
+"活动联络"="Event coordination";
+"编辑"="Editing";
+"翻译(中英/英中)"="Translation (Eng to Chi / Chi to Eng)";
+"文稿撰写"="Writing of article or stories";
+"摄影"="Photo taking";
+"协办筹款活动(不定期举办)"="Organization of events (ad hoc)";
+"探访"="Visit";
+"其他"="Others";
+"请注明"=",please specify";
+"可服务的时间(可选择多项)"="I will be available :";
+"可服务的时间"="I will be available :";
+"星期一"="Monday";
+"星期二"="Tuesday";
+"星期三"="Wednesday";
+"星期四"="Thursday";
+"星期五"="Friday";
+"星期六"="Saturday";
+"星期日"="Sunday";
+"任何时间"="Any Time";
+"上午10时至下午1时"="10am to 1pm";
+"下午2时至下午5时"="2pm to 5pm";
+"上午10时至下午5时"="10am to 5pm";
+"晚上7时至晚上9时"="7pm to 9pm";
+"请输入[有兴趣协助之项目(其他，请注明)]"="Please Input [I can help in following aspects(Others, please specify)].";
+"请输入[可服务的时间(可选择多项)(其他，请注明)]"="Please Input [I will be available(Others, please specify)].";
+"捐款记录提示"="Donation record";

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EGRegisterAllViewController">
+            <connections>
+                <outlet property="bgOrganizaScrollView" destination="OFB-BT-ar0" id="NAB-2Y-im2"/>
+                <outlet property="bgPersonScrollView" destination="htd-1w-Wmq" id="4hl-ms-mAe"/>
+                <outlet property="bottomView" destination="Bqq-Lq-am5" id="lfs-tJ-noC"/>
+                <outlet property="commitBtn" destination="3pQ-lz-Yyn" id="bg7-Kb-JFj"/>
+                <outlet property="organizaBtn" destination="GUe-nf-ICw" id="eu7-wm-UUS"/>
+                <outlet property="personBtn" destination="7nA-BP-llo" id="yKJ-UW-KDe"/>
+                <outlet property="switchTabbar" destination="kNC-9G-dRP" id="4Fx-Lc-U2Y"/>
+                <outlet property="view" destination="iN0-l3-epB" id="0p0-UW-qbm"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kNC-9G-dRP">
+                    <rect key="frame" x="0.0" y="0.0" width="1024" height="45"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7nA-BP-llo">
+                            <rect key="frame" x="0.0" y="0.0" width="512" height="45"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <state key="normal" title="个人" image="reg_personal_nor">
+                                <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" image="reg_personal_sel"/>
+                            <connections>
+                                <action selector="typeAction:" destination="-1" eventType="touchUpInside" id="gH7-uy-lIm"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GUe-nf-ICw">
+                            <rect key="frame" x="512" y="0.0" width="512" height="45"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <state key="normal" title="机构" image="reg_company_nor">
+                                <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" image="reg_company_sel"/>
+                            <connections>
+                                <action selector="typeAction:" destination="-1" eventType="touchUpInside" id="BhU-8l-0Ep"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="7nA-BP-llo" secondAttribute="bottom" id="0sV-18-cn2"/>
+                        <constraint firstItem="GUe-nf-ICw" firstAttribute="leading" secondItem="7nA-BP-llo" secondAttribute="trailing" id="LJb-51-MU5"/>
+                        <constraint firstAttribute="height" constant="45" id="N5T-sG-kTZ"/>
+                        <constraint firstAttribute="bottom" secondItem="GUe-nf-ICw" secondAttribute="bottom" id="Sgq-JU-NbW"/>
+                        <constraint firstItem="7nA-BP-llo" firstAttribute="leading" secondItem="kNC-9G-dRP" secondAttribute="leading" id="UDu-Cw-Hba"/>
+                        <constraint firstAttribute="trailing" secondItem="GUe-nf-ICw" secondAttribute="trailing" id="bAD-an-GmH"/>
+                        <constraint firstItem="GUe-nf-ICw" firstAttribute="leading" secondItem="7nA-BP-llo" secondAttribute="trailing" id="eW4-oc-EoV"/>
+                        <constraint firstItem="GUe-nf-ICw" firstAttribute="width" secondItem="7nA-BP-llo" secondAttribute="width" id="k1g-ro-bQr"/>
+                        <constraint firstItem="7nA-BP-llo" firstAttribute="top" secondItem="kNC-9G-dRP" secondAttribute="top" id="nr8-kK-JfI"/>
+                        <constraint firstItem="GUe-nf-ICw" firstAttribute="top" secondItem="kNC-9G-dRP" secondAttribute="top" id="tO8-aH-mdU"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bqq-Lq-am5">
+                    <rect key="frame" x="0.0" y="708" width="1024" height="60"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3pQ-lz-Yyn">
+                            <rect key="frame" x="30" y="10" width="964" height="40"/>
+                            <color key="backgroundColor" red="0.4039215686" green="0.1960784314" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <state key="normal" title="提交">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="commitBtnAction:" destination="-1" eventType="touchUpInside" id="Uoc-fK-Sb7"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="3pQ-lz-Yyn" secondAttribute="bottom" constant="10" id="1ED-Hy-fS5"/>
+                        <constraint firstItem="3pQ-lz-Yyn" firstAttribute="top" secondItem="Bqq-Lq-am5" secondAttribute="top" constant="10" id="GM4-Mg-XhT"/>
+                        <constraint firstAttribute="trailing" secondItem="3pQ-lz-Yyn" secondAttribute="trailing" constant="30" id="dct-jN-Z0p"/>
+                        <constraint firstAttribute="height" constant="60" id="g6F-AG-Vq4"/>
+                        <constraint firstItem="3pQ-lz-Yyn" firstAttribute="leading" secondItem="Bqq-Lq-am5" secondAttribute="leading" constant="30" id="lgX-QT-qTG"/>
+                    </constraints>
+                </view>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OFB-BT-ar0" customClass="TPKeyboardAvoidingScrollView">
+                    <rect key="frame" x="0.0" y="45" width="1024" height="663"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="jAE-YJ-4bR"/>
+                    </connections>
+                </scrollView>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="htd-1w-Wmq" customClass="TPKeyboardAvoidingScrollView">
+                    <rect key="frame" x="0.0" y="45" width="1024" height="663"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="7hP-8J-UOw"/>
+                    </connections>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Bqq-Lq-am5" firstAttribute="top" secondItem="OFB-BT-ar0" secondAttribute="bottom" id="18c-Vh-mPc"/>
+                <constraint firstAttribute="trailing" secondItem="htd-1w-Wmq" secondAttribute="trailing" id="37i-mF-L3f"/>
+                <constraint firstItem="kNC-9G-dRP" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="5WR-gU-HVT"/>
+                <constraint firstAttribute="trailing" secondItem="OFB-BT-ar0" secondAttribute="trailing" id="6Tl-LF-OIi"/>
+                <constraint firstAttribute="trailing" secondItem="Bqq-Lq-am5" secondAttribute="trailing" id="81d-pP-awp"/>
+                <constraint firstItem="Bqq-Lq-am5" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="KDr-A8-Vjn"/>
+                <constraint firstItem="Bqq-Lq-am5" firstAttribute="top" secondItem="htd-1w-Wmq" secondAttribute="bottom" id="QsI-oy-eIN"/>
+                <constraint firstAttribute="trailing" secondItem="kNC-9G-dRP" secondAttribute="trailing" id="UbE-py-ly5"/>
+                <constraint firstItem="kNC-9G-dRP" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="blu-sk-pvD"/>
+                <constraint firstAttribute="bottom" secondItem="Bqq-Lq-am5" secondAttribute="bottom" id="eA1-FW-gRX"/>
+                <constraint firstItem="htd-1w-Wmq" firstAttribute="top" secondItem="kNC-9G-dRP" secondAttribute="bottom" id="g7Q-87-icf"/>
+                <constraint firstItem="htd-1w-Wmq" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="vO7-ZO-MOB"/>
+                <constraint firstItem="OFB-BT-ar0" firstAttribute="top" secondItem="kNC-9G-dRP" secondAttribute="bottom" id="whE-Mw-w5l"/>
+                <constraint firstItem="OFB-BT-ar0" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="yym-dS-7v4"/>
+            </constraints>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+            <point key="canvasLocation" x="592" y="389"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="reg_company_nor" width="25" height="25"/>
+        <image name="reg_company_sel" width="25" height="25"/>
+        <image name="reg_personal_nor" width="25" height="25"/>
+        <image name="reg_personal_sel" width="25" height="25"/>
+    </resources>
+</document>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gJ1-ob-doS" userLabel="EGMZTopView" customClass="EGMZTopView">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="170"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="reg_default_personal" translatesAutoresizingMaskIntoConstraints="NO" id="9Oy-72-tC1" userLabel="icon_image">
+                    <rect key="frame" x="462" y="35" width="100" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="XKL-IT-4aZ"/>
+                        <constraint firstAttribute="width" constant="100" id="jHI-ZQ-Xrq"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="account_ranking" translatesAutoresizingMaskIntoConstraints="NO" id="pXg-ri-GGy" userLabel="ranking_image">
+                    <rect key="frame" x="143" y="51" width="69" height="69"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="69" id="JAg-Yv-BNU"/>
+                        <constraint firstAttribute="width" constant="69" id="glD-Zj-tIl"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="account_history" translatesAutoresizingMaskIntoConstraints="NO" id="Mt3-3x-AD4">
+                    <rect key="frame" x="812" y="51" width="69" height="69"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="69" id="AZY-1h-4d3"/>
+                        <constraint firstAttribute="height" constant="69" id="wyC-4p-Mvg"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="个人累积捐款: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lI1-VP-T7n" userLabel="donationTextLabel">
+                    <rect key="frame" x="400" y="140" width="112" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HKD$ 9999999999" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yhe-jU-4oC" userLabel="donationMoneyLabel">
+                    <rect key="frame" x="522" y="140" width="155" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="查看排名          " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fe8-me-mGt" userLabel="toprankLabel">
+                    <rect key="frame" x="121" y="140" width="113" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.49792161010000002" green="0.73869554920000002" blue="0.33233021740000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="捐款记录        " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KhP-VO-6FE" userLabel="historyLabel">
+                    <rect key="frame" x="795" y="140" width="104" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.49792161010000002" green="0.73869554920000002" blue="0.33233021740000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xr7-fo-9VL" userLabel="topNameLabel">
+                    <rect key="frame" x="302" y="140" width="420" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="420" id="gQA-ul-CzV"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.96969696969999997" green="0.96969696969999997" blue="0.96969696969999997" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="Fe8-me-mGt" firstAttribute="top" secondItem="lI1-VP-T7n" secondAttribute="top" id="1Ls-vh-EFI"/>
+                <constraint firstItem="yhe-jU-4oC" firstAttribute="top" secondItem="lI1-VP-T7n" secondAttribute="top" id="4kr-X2-IL6"/>
+                <constraint firstItem="9Oy-72-tC1" firstAttribute="centerX" secondItem="gJ1-ob-doS" secondAttribute="centerX" id="6Vm-z3-G8G"/>
+                <constraint firstItem="lI1-VP-T7n" firstAttribute="trailing" secondItem="9Oy-72-tC1" secondAttribute="centerX" id="GJa-lH-ZGS"/>
+                <constraint firstItem="KhP-VO-6FE" firstAttribute="top" secondItem="yhe-jU-4oC" secondAttribute="top" id="JrB-qV-Mhd"/>
+                <constraint firstItem="Fe8-me-mGt" firstAttribute="centerX" secondItem="pXg-ri-GGy" secondAttribute="centerX" id="R4w-JO-wWL"/>
+                <constraint firstItem="9Oy-72-tC1" firstAttribute="leading" secondItem="pXg-ri-GGy" secondAttribute="trailing" constant="250" id="SN8-xl-uNO"/>
+                <constraint firstItem="yhe-jU-4oC" firstAttribute="leading" secondItem="lI1-VP-T7n" secondAttribute="trailing" constant="10" id="TLV-q0-Vf7"/>
+                <constraint firstItem="pXg-ri-GGy" firstAttribute="centerY" secondItem="9Oy-72-tC1" secondAttribute="centerY" id="XTX-fH-zT2"/>
+                <constraint firstItem="9Oy-72-tC1" firstAttribute="centerY" secondItem="gJ1-ob-doS" secondAttribute="centerY" id="a2L-u9-T08"/>
+                <constraint firstItem="KhP-VO-6FE" firstAttribute="centerX" secondItem="Mt3-3x-AD4" secondAttribute="centerX" id="d11-zW-Dfw"/>
+                <constraint firstItem="lI1-VP-T7n" firstAttribute="top" secondItem="9Oy-72-tC1" secondAttribute="bottom" constant="5" id="omo-0y-TMv"/>
+                <constraint firstItem="Xr7-fo-9VL" firstAttribute="top" secondItem="9Oy-72-tC1" secondAttribute="bottom" constant="5" id="q9y-bq-fGh"/>
+                <constraint firstItem="Xr7-fo-9VL" firstAttribute="centerX" secondItem="gJ1-ob-doS" secondAttribute="centerX" id="sNj-9A-63h"/>
+                <constraint firstItem="Mt3-3x-AD4" firstAttribute="leading" secondItem="9Oy-72-tC1" secondAttribute="trailing" constant="250" id="tcW-yE-hsd"/>
+                <constraint firstAttribute="height" constant="170" id="w05-hD-tfy" userLabel="height = 170"/>
+                <constraint firstItem="Mt3-3x-AD4" firstAttribute="centerY" secondItem="9Oy-72-tC1" secondAttribute="centerY" id="wML-Pa-X2V"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="donationMoneyLabel" destination="yhe-jU-4oC" id="hDY-WM-FKJ"/>
+                <outlet property="donationTextLabel" destination="lI1-VP-T7n" id="SmU-PQ-iWq"/>
+                <outlet property="historyLabel" destination="KhP-VO-6FE" id="wvf-Aw-pio"/>
+                <outlet property="icon_image" destination="9Oy-72-tC1" id="knt-PL-XfI"/>
+                <outlet property="rankingView" destination="pXg-ri-GGy" id="6zN-0J-YX8"/>
+                <outlet property="recordView" destination="Mt3-3x-AD4" id="Gun-zC-UCK"/>
+                <outlet property="topNameLabel" destination="Xr7-fo-9VL" id="u8F-Yl-Jf8"/>
+                <outlet property="toprankLabel" destination="Fe8-me-mGt" id="UW9-wq-SFi"/>
+            </connections>
+            <point key="canvasLocation" x="465" y="239"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="account_history" width="69" height="69"/>
+        <image name="account_ranking" width="69" height="69"/>
+        <image name="reg_default_personal" width="99" height="100"/>
+    </resources>
+</document>

@@ -1,2 +1,2 @@
-# egive-ipad
-egive项目(ipad版)
+# give-ipad
+give项目(ipad版)
